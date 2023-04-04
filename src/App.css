@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #1d3137;
+  padding: 5px;
+}
+
+li {
+  text-align: left;
+  line-height: 2;
+  list-style-type: "🏀";
+}
+
+.edit-button {
+  float: right;
+  margin-top: 6px;
+  color: #1d3137;
+}
+
+form {
+  background-color: rgb(179, 207, 231);
+}
+
+h2 {
+  color: #0a3184;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
