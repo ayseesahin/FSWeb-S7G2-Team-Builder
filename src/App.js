@@ -50,17 +50,19 @@ function App() {
       <ul>
         {basMembers.map((member, i) => {
           return (
-            <li key={i}>
-              <a className="App-link" href={`emailto:${member.email}`}>
-                {member.name} - {member.position} - {member.nationality}
-              </a>
-              <button
-                className="edit-button"
-                onClick={() => editHelper(member, i)}
-              >
-                Edit
-              </button>
-            </li>
+            <div className="App-add">
+              <li key={i}>
+                <a className="App-link" href={`emailto:${member.email}`}>
+                  {member.name} - {member.position} - {member.nationality}
+                </a>
+                <button
+                  className="edit-button"
+                  onClick={() => editHelper(member, i)}
+                >
+                  Edit
+                </button>
+              </li>
+            </div>
           );
         })}
       </ul>
